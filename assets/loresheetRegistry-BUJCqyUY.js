@@ -1,0 +1,1 @@
+import{L as n,I as o}from"./sectRegistry-rAJihzbB.js";function s(e){return e==="darkAges"?o:n}function l(e,i){const r=s(e);return i?r.filter(t=>!t.eligibility||t.eligibility.length===0||t.eligibility.includes(i)):r}function f(e){return n.find(i=>i.id===e)??o.find(i=>i.id===e)}export{l as g,f as r};

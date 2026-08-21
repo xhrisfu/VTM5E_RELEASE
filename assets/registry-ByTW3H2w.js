@@ -1,0 +1,1 @@
+import{l as r,j as i}from"./manifest-hqKlmfvN.js";const a=[r,i];function t(e){return{...e,entryRequirements:{...e.entryRequirements,allowedCharacterTypes:[...e.entryRequirements.allowedCharacterTypes]},acts:e.acts.map(n=>({...n,sceneIds:[...n.sceneIds]}))}}function c(){return a.map(t)}function l(e){const n=a.find(s=>s.id===e);return n?t(n):void 0}export{l as g,c as l};
